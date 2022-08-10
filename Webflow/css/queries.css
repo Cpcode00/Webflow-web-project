@@ -1,0 +1,272 @@
+/************************************************/
+/*   Below infinite  */
+/************************************************/
+
+@media (max-width: 160em) {
+  /* .html {
+    font-size: 100%;
+  } */
+
+  /* .section-hero {
+    height: 150vh;
+  } */
+}
+
+/************************************************/
+/*   Below 1920px  */
+/************************************************/
+
+@media (max-width: 120em) {
+  .html {
+    font-size: 100%;
+  }
+
+  /* .section-hero {
+    height: 75vh;
+  } */
+}
+
+/************************************************/
+/*   Below 1600px  */
+/************************************************/
+
+@media (max-width: 100em) {
+  /* .hero-img {
+    width: 100%;
+    align-self: center;
+  }
+
+  .grid {
+    display: flex;
+    flex-direction: column;
+  }
+
+  .product-features {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+  } */
+
+  /* .section-hero {
+    height: 60vh;
+  } */
+
+  .container {
+    max-width: 120rem;
+    padding: 0 2.4rem;
+    margin: 0 2.4;
+  }
+
+  .grid {
+    display: grid;
+    row-gap: 1.2rem;
+  }
+}
+
+/************************************************/
+/*   Below 1200px  */
+/************************************************/
+
+@media (max-width: 75em) {
+  /* .section-hero {
+  } */
+
+  .container {
+    max-width: 120rem;
+    padding: 0 2.4rem;
+    margin: 0 1.8rem;
+  }
+
+  .grid {
+    display: grid;
+    row-gap: 1.2rem;
+    column-gap: 4.8rem;
+  }
+
+  .grid--2-cols {
+    grid-template-columns: 45fr 45fr;
+  }
+
+  .hero-img {
+    max-width: 80vw;
+  }
+}
+
+/************************************************/
+/*   Below 1000px  */
+/************************************************/
+
+@media (max-width: 62.5em) {
+  /* .section-hero {
+    height: 25vh;
+  } */
+
+  .choices {
+    display: none;
+  }
+
+  .container {
+    max-width: 120rem;
+    padding: 0 2.4rem;
+    margin: 0 1.8rem;
+  }
+
+  .grid {
+    display: grid;
+    row-gap: 1.2rem;
+    column-gap: 4rem;
+  }
+
+  .grid--2-cols {
+    column-gap: 1.2rem !important;
+    grid-template-columns: 40fr 60fr;
+  }
+
+  .grid--2-cols-modified {
+    grid-template-columns: 40fr 60fr;
+  }
+
+  .hero-img {
+    align-self: center;
+    width: 100%;
+    object-fit: cover;
+    transform: translate(20%);
+  }
+
+  .container--feature {
+    padding: 4rem !important;
+  }
+
+  .feature-box {
+    background-color: inherit;
+  }
+
+  .product-features {
+    padding: 1.4rem;
+    background-color: rgba(233, 196, 200, 0.247);
+    display: grid;
+  }
+
+  .cta--left {
+    grid-column: 1/-1;
+    margin-bottom: 5.2rem;
+  }
+
+  .cta--right {
+    grid-column: 1/-1;
+    /* margin-bottom: 4rem; */
+  }
+
+  .cta--logo {
+    width: 7rem;
+  }
+
+  .footer-grid {
+    grid-template-columns: 1fr 1fr;
+    row-gap: 4.8rem;
+  }
+}
+
+/************************************************/
+/*   Below 768px  */
+/************************************************/
+
+@media (max-width: 48em) {
+  /* html {
+    font-size: 125%;
+  } */
+
+  .section-hero {
+    height: 100%;
+  }
+
+  .hero-text-box {
+    padding: 1.4rem;
+  }
+
+  .container {
+    max-width: 120rem;
+    padding: 0;
+    margin: 0 2.4rem;
+  }
+
+  .container--feature {
+    padding: 2.4rem !important;
+  }
+
+  .grid {
+    display: grid;
+    row-gap: 1.2rem;
+    column-gap: 4rem;
+  }
+
+  /* .grid--2-cols {
+    grid-template-columns: 40fr 60fr;
+  } */
+
+  .hero-text-box {
+    order: 2;
+    grid-column: 1/-1;
+  }
+
+  .hero-img {
+    width: 100%;
+    transform: translate(2rem);
+    grid-column: 1/-1;
+  }
+
+  .left {
+    width: 100%;
+    grid-column: 1/-1;
+  }
+
+  .feature-subheading {
+    margin-bottom: 3.6rem;
+  }
+
+  .feature-box {
+    padding: 0;
+    margin-bottom: 2.4rem;
+  }
+
+  .feature-logo {
+    width: 25%;
+    margin-bottom: 1.4rem;
+  }
+
+  .feature-testimonial-text {
+    margin-bottom: 1.4rem;
+  }
+
+  .right {
+    width: 100%;
+    grid-column: 1/-1;
+  }
+
+  .product-feature-heading {
+    font-size: 2rem;
+  }
+
+  .product-feature-description {
+    font-size: 1.2rem;
+  }
+
+  .container--explore {
+    padding: 2.4rem;
+  }
+
+  .text-normal {
+    width: 70%;
+  }
+
+  .explore-feature-box {
+    grid-template-columns: 1fr;
+  }
+
+  .card-main-text {
+    font-size: 1.6rem;
+  }
+
+  .card-text {
+    font-size: 1.4rem;
+  }
+}
